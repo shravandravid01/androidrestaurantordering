@@ -1,5 +1,5 @@
 package com.androidfirst.touchmenu;
 
-public class FoodItem {
+public class ExitAppActivity {
 
 }
