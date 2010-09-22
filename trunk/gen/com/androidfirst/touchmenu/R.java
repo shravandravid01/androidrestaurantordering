@@ -96,11 +96,15 @@ public final class R {
         public static final int home=0x7f030006;
         public static final int initialization=0x7f030007;
         public static final int login=0x7f030008;
-        public static final int paymentoptions=0x7f030009;
-        public static final int row=0x7f03000a;
-        public static final int settings=0x7f03000b;
-        public static final int specials=0x7f03000c;
-        public static final int token=0x7f03000d;
+        public static final int ordered_items=0x7f030009;
+        public static final int page_waiter_layout=0x7f03000a;
+        public static final int payment_page_layout=0x7f03000b;
+        public static final int paymentoptions=0x7f03000c;
+        public static final int refill_drinks_layout=0x7f03000d;
+        public static final int row=0x7f03000e;
+        public static final int settings=0x7f03000f;
+        public static final int specials=0x7f030010;
+        public static final int token=0x7f030011;
     }
     public static final class menu {
         public static final int menuoptions=0x7f050000;
