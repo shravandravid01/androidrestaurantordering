@@ -54,10 +54,6 @@ import android.widget.TextView;
 	    						String Name= c.getString(c.getColumnIndex("Name"));
 	    						String Description= c.getString(c.getColumnIndex("Description")); //("two");
 	    						String Price =c.getString(c.getColumnIndex("Price"));
-	    						//a += N+ ":"+ rod + ":"+ idn+"\n";
-	    						//d=BitmapFactory.decodeByteArray(rody, 0, rody.length);
-	    						//ist.add(a);
-	    					//	Names.add(Description+"\t"+"::"+ "\t"+"R"+Price);
 	    						Names.add(Description);
 	    						list.add(rody);
 	    						Prices.add("R"+"\t"+Price);
@@ -80,8 +76,7 @@ import android.widget.TextView;
 	    			super(DataBasePopulator.this, R.layout.row, Names);
 	    		}
 	    		
-	    		public View getView(int position, View convertView,
-	    												ViewGroup parent) {
+	    		public View getView(int position, View convertView,   												ViewGroup parent) {
 	    			LayoutInflater inflater=getLayoutInflater();
 	    			View row=inflater.inflate(R.layout.row, parent, false);
 	    			TextView label=(TextView)row.findViewById(R.id.label);

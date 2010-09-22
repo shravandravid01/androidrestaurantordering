@@ -20,6 +20,12 @@
 
  
 <activity android:name="DataBasePopulator"></activity>
+
+
+<activity android:name="OrderedItemsPageActivity"></activity>
+<activity android:name="PageMyWaiterActivity"></activity>
+<activity android:name="PaymentPageActivity"></activity>
+<activity android:name="RefillDrinksPageActivity"></activity>
 </application>
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
