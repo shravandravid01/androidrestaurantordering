@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">TouchMenu</string>
+    <string name="home">Home</string>
+     <string name="category"> Food Categories</string>
+     <string name="confirmItem "> Confirm Add Item Screen </string>
+     <string name="maincourseitems"> Main Courses</string>
+    <string name="desertitems"> Deserts</string>
+     <string name="drinkslist"> Drinks </string>
+     <string name="orderedItems">  Ordered Items</string>
+     <string name="initialization">  Initialization </string>
+         <string name="settings">  menu_item_settings </string>
+         <string name="menu_item_help"> help</string>
+         <string name="login"> Login Screen</string>
+</resources>

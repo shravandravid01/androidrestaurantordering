@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+><!--
+	<ImageView
+		android:id="@+id/icon"
+		android:layout_width="22px"
+		android:paddingLeft="2px"
+		android:paddingRight="2px"
+		android:paddingTop="2px"
+		android:layout_height="wrap_content"
+		android:src="@drawable/ok"
+	/>
+	
+	
+	--><ImageButton
+android:id="@+id/drinkslisticon"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/drinkslisticon"
+></ImageButton>
+		
+	<TextView
+		android:id="@+id/label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="12sp"
+		android:layout_marginRight="0px"
+	/>
+	
+	<TextView
+		android:id="@+id/label2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="0px"
+		android:textSize="12sp"
+	/>
+	<CheckBox
+android:id="@+id/checkbox"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="1px"
+android:text="Add"
+android:textSize="10sp"
+>
+</CheckBox>
+	
+</LinearLayout>
+
